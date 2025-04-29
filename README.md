@@ -14,6 +14,11 @@ This project implements a hybrid deep learning architecture to detect AI-generat
 - **Source**: [Kaggle AI-generated images dataset]
 - **Classes**: `Real (0)` and `Fake (1)`
 
+## Dataset License
+
+The dataset used in this project, [AI vs Human Generated Dataset](https://www.kaggle.com/datasets/alessandrasala79/ai-vs-human-generated-dataset) by alessandrasala79, is licensed under the Apache License 2.0.
+
+
 ## Tools & Libraries
 
 - PyTorch
