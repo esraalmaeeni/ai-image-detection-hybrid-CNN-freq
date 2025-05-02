@@ -31,6 +31,3 @@ The dataset used in this project, [AI vs Human Generated Dataset](https://www.ka
 - Loss: `BCEWithLogitsLoss`
 - Optimizer: `SGD`
 - Metrics: Accuracy, Confusion Matrix
-
-
-*Made For CO304 project
