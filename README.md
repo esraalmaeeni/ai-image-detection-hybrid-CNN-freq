@@ -18,6 +18,16 @@ This project implements a hybrid deep learning architecture to detect AI-generat
 
 The dataset used in this project, [AI vs Human Generated Dataset](https://www.kaggle.com/datasets/alessandrasala79/ai-vs-human-generated-dataset) by alessandrasala79, is licensed under the Apache License 2.0.
 
+### Kaggle Setup (Required Once)
+
+1. Go to https://www.kaggle.com/settings
+2. Click "Create New API Token"
+3. Download `kaggle.json`
+4. Place it in:
+   ~/.kaggle/kaggle.json
+5. Run:
+   pip install kaggle
+
 
 ## Tools & Libraries
 
