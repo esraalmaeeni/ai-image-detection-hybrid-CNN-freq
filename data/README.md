@@ -16,7 +16,6 @@ The subset was created using `scripts/create_subset.py`.
 
 ### Reproducibility
 To reproduce the dataset:
-1. Download the full dataset from Kaggle
 2. Run `scripts/create_subset.py`
 3. Place the resulting `data/` directory at project root
 
