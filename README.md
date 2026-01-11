@@ -8,6 +8,8 @@ This project implements a hybrid deep learning architecture to detect AI-generat
 - **Frequency Branch**: Uses FFT to extract frequency-based features
 - **Fusion Module**: Attention-based feature fusion
 - **Adversarial Module**: Gradient reversal layer for domain adaptation
+  <img width="2000" height="533" alt="image" src="https://github.com/user-attachments/assets/57a12fb0-51a7-446a-937d-c52585235b7d" />
+
 
 ## Dataset
 
