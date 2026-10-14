@@ -1,35 +1,23 @@
-# AI-Generated Image Detection with Hybrid CNN-Frequency Fusion
+# AI-Generated Image Detection: Hybrid CNN-Frequency Fusion
 
-This project implements a hybrid deep learning architecture to detect AI-generated images using spatial and frequency domain analysis, combined with adversarial training.
+A hybrid deep learning architecture to detect AI-generated images by combining spatial features with frequency domain analysis and adversarial training.
 
-## Architecture Highlights
+**[Launch Live Gradio Demo](#)** 
 
-- **Spatial Branch**: CNN for spatial feature extraction
-- **Frequency Branch**: Uses FFT to extract frequency-based features
-- **Fusion Module**: Attention-based feature fusion
-- **Adversarial Module**: Gradient reversal layer for domain adaptation
-  <img width="2000" height="533" alt="image" src="https://github.com/user-attachments/assets/57a12fb0-51a7-446a-937d-c52585235b7d" />
+<img width="100%" alt="Hybrid Architecture Diagram" src="https://github.com/user-attachments/assets/57a12fb0-51a7-446a-937d-c52585235b7d" />
 
+## Architecture
+* **Spatial Branch:** CNN for extracting visual features.
+* **Frequency Branch:** Fast Fourier Transform (FFT) to capture global periodic artifacts.
+* **Fusion Module:** Attention-based mechanism to combine spatial and frequency representations.
+* **Adversarial Module:** Gradient Reversal Layer (GRL) for domain adaptation to mitigate reliance on specific generator artifacts.
+
+## Tech Stack & Training
+* **Framework:** PyTorch, NumPy, Matplotlib
+* **Optimization:** SGD Optimizer, `BCEWithLogitsLoss`
+* **Evaluation:** Accuracy, Confusion Matrix (Scikit-learn)
+* **Deployment:** Gradio
 
 ## Dataset
-
-- **Source**: [Kaggle AI-generated images dataset]
-- **Classes**: `Real (0)` and `Fake (1)`
-
-## Dataset License
-
-The dataset used in this project, [AI vs Human Generated Dataset](https://www.kaggle.com/datasets/alessandrasala79/ai-vs-human-generated-dataset) by alessandrasala79, is licensed under the Apache License 2.0.
-
-
-## Tools & Libraries
-
-- PyTorch
-- NumPy, Matplotlib
-- Sklearn (for evaluation)
-- Google Colab
-
-## Training
-
-- Loss: `BCEWithLogitsLoss`
-- Optimizer: `SGD`
-- Metrics: Accuracy, Confusion Matrix
+[AI vs Human Generated Dataset](https://www.kaggle.com/datasets/alessandrasala79/ai-vs-human-generated-dataset) (Apache 2.0 License). 
+* **Classes:** `Real (0)` | `Fake (1)`
