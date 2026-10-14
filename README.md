@@ -21,3 +21,4 @@ A hybrid deep learning architecture to detect AI-generated images by combining s
 ## Dataset
 [AI vs Human Generated Dataset](https://www.kaggle.com/datasets/alessandrasala79/ai-vs-human-generated-dataset) (Apache 2.0 License). 
 - **Classes:** `Real (0)` | `Fake (1)`
+- **Train size:** 31980 examples.
