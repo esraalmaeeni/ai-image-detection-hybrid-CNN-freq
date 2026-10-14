@@ -2,7 +2,7 @@
 
 A hybrid deep learning architecture to detect AI-generated images by combining spatial features with frequency domain analysis and adversarial training.
 
-**[Live Gradio Demo: FakeMedia Detector](https://huggingface.co/spaces/esraalmaeeni/FakeMedia-Detector)** | **[Medium Article: What I Learned Building a Fake Image Detector](https://medium.com/@esraalmaeeni/what-i-learned-building-a-fake-image-detector-as-a-student-and-how-you-can-too-9b3bd8eebc8b)**
+**[Live Gradio Demo: FakeMedia Detector](https://huggingface.co/spaces/esraalmaeeni/FakeMedia_Detector)** | **[Medium Article: What I Learned Building a Fake Image Detector](https://medium.com/@esraalmaeeni/what-i-learned-building-a-fake-image-detector-as-a-student-and-how-you-can-too-9b3bd8eebc8b)**
 
 <img width="100%" alt="Hybrid Architecture Diagram" src="https://github.com/user-attachments/assets/57a12fb0-51a7-446a-937d-c52585235b7d" />
 
